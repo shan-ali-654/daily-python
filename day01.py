@@ -26,3 +26,12 @@ discount_code = None
 if discount_code is None:
     print("No Discount")
 
+unit_price = 99.5095
+print(f"UNit Price is : {unit_price:.2f}")
+
+a = 0.1
+b = 0.2
+c = 0.3
+print(a + b == c )
+
+print(True + True)
