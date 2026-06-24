@@ -22,6 +22,12 @@ print(num)
 num[0] = 23
 print(num) # Showing an {TypeError: 'tuple' object does not support item assignment}
 
+person_x = ("Zeeshan", 23 , "N/A")
+name, age, job = person_x
+print(name)
+print(age)
+print(job)
+
 # Dicts
 
 product_x = {"name": "Banana", "price":200, "in_Stock": True}
