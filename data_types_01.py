@@ -23,7 +23,11 @@ else:
     print("Unpaid")
 
 
-
+discount_code = None
+if discount_code is None:
+    print("No Discount")
+else:
+    print("Discount Added")
 
 unit_price = 99.5095
 print(f"UNit Price is : {unit_price:.2f}")
