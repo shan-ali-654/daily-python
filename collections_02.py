@@ -33,3 +33,10 @@ product_x["quantity"] = 25
 product_x["price"] = 250
 print(product_x)
 
+# Sets
+
+nums = {2, 3, 2, 6, 4, 3, 5}
+print(nums) # it prints values in order not use repeated numbers 
+
+nums.add(9)
+print(nums)
