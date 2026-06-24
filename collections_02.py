@@ -13,3 +13,11 @@ fruit_names[1] = "Pineapple"
 print(fruit_names)
 
 print(len(fruit_names))
+
+# Tuples
+
+num = (20, 30, 40)
+print(num)
+
+num[0] = 23
+print(num) # Showing an {TypeError: 'tuple' object does not support item assignment}
