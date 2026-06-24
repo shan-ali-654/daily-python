@@ -36,7 +36,7 @@ print(product_x)
 # Sets
 
 nums = {2, 3, 2, 6, 4, 3, 5}
-print(nums) # it prints values in order not use repeated numbers 
+print(nums) # it prints values but every time those order get changed also remove repeated numbers/items iteself  
 
 nums.add(9)
 print(nums)
