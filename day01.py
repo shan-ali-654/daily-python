@@ -2,7 +2,7 @@ name = "Ali"
 print(f"Day 1 — {name} is shipping daily now.")
 
 quantity = 5
-print (f"{quantity}, Type:  {type(quantity)}")
+print(f"{quantity}, Type:  {type(quantity)}")
 
 unit_price = 99.50 
 print(f"{unit_price}, Type:  {type(unit_price)}")
@@ -19,12 +19,15 @@ print(f"First 3 letter is :{full_name[0:3]}")
 is_paid = True
 if  is_paid:
     print("Paid")
-print("Unpaid")
+else:
+    print("Unpaid")
 
 
 discount_code = None
 if discount_code is None:
     print("No Discount")
+else:
+    print("Discount Added")
 
 unit_price = 99.5095
 print(f"UNit Price is : {unit_price:.2f}")
