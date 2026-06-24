@@ -36,6 +36,9 @@ print(product_x)
 print(f"Price is {product_x['price']}")
 
 product_x["quantity"] = 25
+print(product_x.get("name"))
+print(product_x.get("colour"))
+print(product_x.get("price"))
 product_x["price"] = 250
 print(product_x)
 
