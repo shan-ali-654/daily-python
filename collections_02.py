@@ -49,3 +49,11 @@ print(nums) # it prints values but every time those order get changed also remov
 
 nums.add(9)
 print(nums)
+
+num_a = {2, 3, 5, 6}
+num_b = {2, 4, 5, 7}
+
+print(f"Union is : {num_a.union(num_b)}")
+print(f"Intersection is : {num_a.intersection(num_b)}")
+print(f"Difference is : {num_a.difference(num_b)}")
+print(f"Difference is : {num_b.difference(num_a)}")
