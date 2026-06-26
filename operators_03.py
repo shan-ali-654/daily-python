@@ -30,3 +30,6 @@ print(f"Whole Number is : {(num_1//num_2)}")
 x, y = 15, 20
 print(x == y)
 
+print(2 ** 5)
+
+print(2 + 3 * 4) # it would be 14 ( while i just guessed)
