@@ -33,3 +33,13 @@ print(x == y)
 print(2 ** 5)
 
 print(2 + 3 * 4) # it would be 14 ( while i just guessed)
+
+# Comparison
+
+x, y = 7 , 12
+if x > y:
+    print("X is Bigger")
+elif x == y:
+    print("It's Equals")
+else:
+    print("it's not True.")
