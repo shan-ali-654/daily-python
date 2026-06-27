@@ -27,8 +27,7 @@ num_1, num_2 = 17, 5
 print(f"Dividing is : {num_1/num_2}")
 print(f"Whole Number is : {(num_1//num_2)}")
 
-x, y = 15, 20
-print(x == y)
+print(f"Modulus is {num_1 % num_2}")
 
 print(2 ** 5)
 
