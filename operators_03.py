@@ -45,7 +45,9 @@ else:
     print("it's not True.")
 
 x, y = 7, 7
-print(x == y)
+
+num = x == y
+print(num)
 
 x = 3 > 5 < 10
 print(x)
