@@ -6,9 +6,9 @@ for city in city_names:
     print(city)
 
 # Q2
-word = 'Normal'
-for w in word:
-    print(w)
+letter = 'Normal'
+for word in letter:
+    print(word)
 
 # Q3
 person = {
@@ -18,3 +18,5 @@ person = {
 }
 for key, value in person.items():
     print(f"Key is {key} : Value is {value}")
+
+# Range
