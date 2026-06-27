@@ -88,3 +88,20 @@ else:
 # Q17
 x = True
 print(not x)
+
+# Q18
+x , y= 7, 9
+num = x == y
+if num == True:
+    print("They are Equal.")
+else:
+    print("They are not Equal.")
+
+# Q19
+score = 50
+if score <= 50:
+    print(f"Your score is {score}")
+else:
+    print('Not Right.')
+
+# Q20
