@@ -43,3 +43,8 @@ elif x == y:
     print("It's Equals")
 else:
     print("it's not True.")
+
+x, y = 7, 7
+print(x == y)
+
+# Question 13 I nor understand this ? 
