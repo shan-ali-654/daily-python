@@ -47,7 +47,8 @@ else:
 x, y = 7, 7
 print(x == y)
 
-# Question 13 I nor understand this ? 
+x = 3 > 5 < 10
+print(x)
 
 # Logical
 a, b = True, False
