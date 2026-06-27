@@ -97,3 +97,10 @@ for num in range(1 , 11):
         num.append(even_num)
         print(even_num)
         
+# Loops Else (try it )
+
+# Q14
+for num in range(1, 6):
+    print(num)
+print("It's Done.")
+
