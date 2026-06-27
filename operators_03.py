@@ -48,7 +48,7 @@ x, y = 7, 7
 num = x == y
 print(num)
 
-x = 3 > 5 < 10
+x = 3 < 5 < 10
 print(x)
 
 # Logical
