@@ -8,9 +8,9 @@ for city in city_names:
 
 # Q2
 # print each word
-letter = 'Normal'
-for word in letter:
-    print(word)
+word = 'Normal'
+for letter in word:
+    print(letter)
 
 # Q3
 # print each Key with Value Pairs
