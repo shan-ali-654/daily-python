@@ -66,3 +66,19 @@ while user_input != 'quit':
     print(f"You Enter : {user_input}")
     user_input = input("Enter some Alphabet. :")
 
+# Break and Continue
+
+# Q10
+# skipping num 5
+for num in range(1, 11):
+    if num == 5:
+        continue
+    else:
+        print(f"Number is {num}")
+
+# Q11
+# stoping at 7
+for num in range(1, 11):
+    if num == 7:
+        break
+
