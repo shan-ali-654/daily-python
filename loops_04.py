@@ -94,7 +94,7 @@ print(lst)
 even_num = []
 for num in range(1 , 11):
     if num % 2 == 0:
-        num.append(even_num)
+        even_num.append(num)
         print(even_num)
         
 # Loops Else (try it )
