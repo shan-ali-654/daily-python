@@ -34,3 +34,19 @@ for num in range(1, 11):
 for num in range (1, 21):
     if num % 2 == 0 :
         print(f"Even Number is : {num}")
+
+# Position and Pairing 
+
+# Q6
+# print each item with index and value
+fruits = ["Apple", "Banana", "Lemon", "Orange"]
+for index , name in enumerate(fruits):
+    print(f"Index is {index}: {name}")
+
+# Q7
+# make two differ list print them like paired
+names = ['Ali', 'Arslan', 'Shahid', 'Amir']
+ages = [23, 24, 32, 25]
+for name, age in zip(names, ages):
+    print(f"{name} is {age}")
+
