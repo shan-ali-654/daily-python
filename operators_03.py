@@ -48,3 +48,24 @@ x, y = 7, 7
 print(x == y)
 
 # Question 13 I nor understand this ? 
+
+# Logical
+a, b = True, False
+if a and b :
+    print(True)
+else:
+    print(False)
+
+if a or b:
+    print(True)
+else:
+    print(False)
+
+age = 20
+if age > 18 and age < 30:
+    print(f"Your age is {age}. And you are Eligable")
+else:
+    print(f"Your age is {age}. And you are Not Eligable")
+
+x = True
+print(not a)
