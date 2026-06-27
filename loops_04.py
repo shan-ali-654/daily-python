@@ -50,3 +50,19 @@ ages = [23, 24, 32, 25]
 for name, age in zip(names, ages):
     print(f"{name} is {age}")
 
+# While Loops
+
+# Q8
+# printing upto 5
+num = 0
+while num < 5:
+    print(f"Number is {num}.")
+    num += 1
+
+# Q9
+# askig untill get quit
+user_input = input("Enter some Alphabet. :")
+while user_input != 'quit':
+    print(f"You Enter : {user_input}")
+    user_input = input("Enter some Alphabet. :")
+
