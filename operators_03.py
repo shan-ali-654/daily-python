@@ -70,4 +70,4 @@ else:
     print(f"Your age is {age}. And you are Not Eligable")
 
 x = True
-print(not a)
+print(not x)
