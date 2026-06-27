@@ -82,3 +82,18 @@ for num in range(1, 11):
     if num == 7:
         break
 
+# List Comprehension
+
+# Q12
+#  printing square of each num.
+lst = [num ** 2 for num in range(1, 11)]
+print(lst)
+
+# Q13
+# Making a new list of even num 
+even_num = []
+for num in range(1 , 11):
+    if num % 2 == 0:
+        num.append(even_num)
+        print(even_num)
+        
