@@ -14,3 +14,15 @@ elif exam_score < 60 :
     print("Grade is F")
 else:
     print("Kindly proceed with Number")
+
+# Q3
+# Found max number without max function 
+num_1, num_2, num_3 = 4, 9, 8
+if num_1 > num_2:
+    print(f"Greater Num is '{num_1}' 1st Number.")
+elif num_2 > num_3:
+        print(f"Greater Num is '{num_2}' 2nd Number.")
+elif num_3 > num_1:
+        print(f"Greater Num is '{num_3}' 3rd Number.")
+else:
+     print("Wrong Input Kindly proceed with Numbers. ")
