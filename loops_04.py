@@ -54,8 +54,8 @@ for name, age in zip(names, ages):
 
 # Q8
 # printing upto 5
-num = 0
-while num < 5:
+num = 1
+while num < 6:
     print(f"Number is {num}.")
     num += 1
 
@@ -80,6 +80,7 @@ for num in range(1, 11):
 # stoping at 7
 for num in range(1, 11):
     if num == 7:
+        print(num)
         break
 
 # List Comprehension
