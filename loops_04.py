@@ -92,12 +92,10 @@ print(lst)
 
 # Q13
 # Making a new list of even num 
-even_num = []
-for num in range(1 , 11):
-    if num % 2 == 0:
-        even_num.append(num)
-print(even_num)
-        
+eve_num = [num for num in range(1, 11) if num % 2 == 0]
+print(eve_num)
+
+
 # Loops Else (try it )
 
 # Q14
