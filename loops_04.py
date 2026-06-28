@@ -79,8 +79,8 @@ for num in range(1, 11):
 # Q11
 # stoping at 7
 for num in range(1, 11):
+    print(num)
     if num == 7:
-        print(num)
         break
 
 # List Comprehension
