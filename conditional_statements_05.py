@@ -48,4 +48,21 @@ if weekend or public_holiday:
      print("Shop is 'Closed'.")
 else:
      print("Shop is 'Opened'.") 
+
+# Q6
+# ATM Machine proto Type
+acc_balance = 5
+card_blocked = False
+withdrawl_amount = int(input("Enter amount that you want to withdraw :"))
+
+if card_blocked:
+    print("Your Card is 'Blocked'. \nWithdrawl is Not Allowed")
+elif not card_blocked:
+    if withdrawl_amount <= acc_balance:
+        print(f"Your Withdrawl amount is : {withdrawl_amount}.")
+        acc_balance = acc_balance - withdrawl_amount
+        print(f"Remaining Balance is : {acc_balance}")
+    elif withdrawl_amount >acc_balance:
+        print(f"The balance you entered : {withdrawl_amount},  this is more than your current balance: {acc_balance}")
+        print("Insufficient Funds.")
     
