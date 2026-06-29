@@ -32,11 +32,11 @@ else:
 person_age = 23
 valid_ticket = False
 
-if person_age>= 18 and valid_ticket == True:
+if person_age>= 18 and valid_ticket:
      print("You can gets in.")
-elif person_age < 18 and valid_ticket == False:
+elif person_age < 18 and  not valid_ticket:
      print("You are not eligable. Reason both ticket and age.")
-elif person_age>= 18 and valid_ticket == False:
+elif person_age>= 18 and not valid_ticket:
      print("You not have a Valid ticket that's why you are not eligable.")
-elif person_age < 18 and valid_ticket == True:
+elif person_age < 18 and valid_ticket:
      print("Your Age is Low , that's why you are not eligable.")
