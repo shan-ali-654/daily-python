@@ -26,3 +26,14 @@ elif num_3 > num_1 and num_3 > num_2:
         print(f"Greater Num is '{num_3}' 3rd Number.")
 else:
      print("Wrong Input Kindly proceed with Numbers. ")
+
+# Q4
+# Age ticket Validator
+person_age = 23
+valid_ticket = False
+if person_age < 18 :
+     print(f"Your Age is : {person_age}. So you are not eligable.")
+elif valid_ticket == False:
+     print("You not have a Valid ticket that's why you are not eligable.")
+elif person_age < 18 and valid_ticket == False:
+     print("Your Age is Low and you also not have a valid Ticket.")
