@@ -15,6 +15,15 @@ elif exam_score < 60 :
 else:
     print("Kindly proceed with Number")
 
+# Q2
+# Finding leap Year
+year = int(input("Enter year in 4 digit format : "))
+if (year % 4 == 0 and year % 100 != 0 ) or year % 400 == 0:
+     print(f"Yes {year} is a leap Year")
+else:
+     print("No")
+
+
 # Q3
 # Found max number without max function 
 num_1, num_2, num_3 = 4, 9, 8
