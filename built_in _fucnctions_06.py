@@ -12,3 +12,19 @@ print(f"Bigger Number is : {bigger_num}.")
 
 lower_num = min(totals)
 print(f"Lower Number is : {lower_num}")
+
+# Q2
+num  = 9
+string = 'Apple'
+lst = [12, 'Fruit']
+print(f"Type of Data is : {type(num)}.")
+print(f"Type of Data  is : {type(string)}.")
+print(f"Type of Data is : {type(lst)}.")
+
+# Q3
+lst = [1200, 450, 9800, 300]
+sort_lst = sorted(lst)
+rev_sort_lst = sorted(lst, reverse=True)
+print(sort_lst)
+print(rev_sort_lst)
+
