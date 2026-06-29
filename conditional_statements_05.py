@@ -31,9 +31,12 @@ else:
 # Age ticket Validator
 person_age = 23
 valid_ticket = False
-if person_age < 18 :
-     print(f"Your Age is : {person_age}. So you are not eligable.")
-elif valid_ticket == False:
-     print("You not have a Valid ticket that's why you are not eligable.")
+
+if person_age>= 18 and valid_ticket == True:
+     print("You can gets in.")
 elif person_age < 18 and valid_ticket == False:
-     print("Your Age is Low and you also not have a valid Ticket.")
+     print("You are not eligable. Reason both ticket and age.")
+elif person_age>= 18 and valid_ticket == False:
+     print("You not have a Valid ticket that's why you are not eligable.")
+elif person_age < 18 and valid_ticket == True:
+     print("Your Age is Low , that's why you are not eligable.")
