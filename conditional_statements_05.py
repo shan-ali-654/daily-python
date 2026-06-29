@@ -40,3 +40,13 @@ elif person_age>= 18 and not valid_ticket:
      print("You not have a Valid ticket that's why you are not eligable.")
 elif person_age < 18 and valid_ticket:
      print("Your Age is Low , that's why you are not eligable.")
+
+# Q5
+# Today fact Checker
+weekend, public_holiday = True, False
+if weekend and public_holiday:
+     print("Shop is 'Closed'.")
+elif not weekend and not public_holiday:
+     print("Shop is 'Opened'.")
+elif not weekend or not public_holiday:
+     print("Shop is 'Closed'.")
