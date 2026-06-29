@@ -44,9 +44,8 @@ elif person_age < 18 and valid_ticket:
 # Q5
 # Today fact Checker
 weekend, public_holiday = True, False
-if weekend and public_holiday:
+if weekend or public_holiday:
      print("Shop is 'Closed'.")
-elif not weekend and not public_holiday:
-     print("Shop is 'Opened'.")
-elif not weekend or not public_holiday:
-     print("Shop is 'Closed'.")
+else:
+     print("Shop is 'Opened'.") 
+    
