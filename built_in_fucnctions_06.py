@@ -32,3 +32,7 @@ print(rev_sort_lst)
 word_lst = ["Python", "Programming", "Code", "Functions"]
 longest_word = max(word_lst, key=len)
 print(longest_word)
+
+# Intermediate
+# Q5
+
