@@ -14,6 +14,7 @@ lower_num = min(totals)
 print(f"Lower Number is : {lower_num}")
 
 # Q2
+# Finding sata types usnig built in fuc 
 num  = 9
 string = 'Apple'
 lst = [12, 'Fruit']
