@@ -22,6 +22,7 @@ print(f"Type of Data  is : {type(string)}.")
 print(f"Type of Data is : {type(lst)}.")
 
 # Q3
+# sorting lst using built in sorted ()
 lst = [1200, 450, 9800, 300]
 sort_lst = sorted(lst)
 rev_sort_lst = sorted(lst, reverse=True)
