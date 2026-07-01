@@ -36,6 +36,4 @@ word_lst = ["Python", "Programming", "Code", "Functions"]
 longest_word = max(word_lst, key=len)
 print(longest_word)
 
-# Intermediate
-# Q5
-
+# Till 1.Yet we have done almost whats told in file so what next 
