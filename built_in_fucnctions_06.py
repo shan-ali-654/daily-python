@@ -1,39 +1,20 @@
-# Q1
-# Orderd Totals
-totals = [1200, 450, 9800, 300]
-total_revenue = sum(totals)
-print(f"Total Revenue is : {total_revenue}.")
+# 1. One sentence: what is a function, and what's the main reason we use them?
+# Function is a block of Code that we use to make code lines lower and reuse some lines again when we are get needed those . this act as a  block of code that we can reuse by just calling function name instead of writing from blank . 
 
-order_count = len(totals)
-print(f"Order Count is : {order_count}")
+# ----------------
+# 2. Python functions into two types. Name both, and give a one-line difference.
+# Built_in Fuctions : Those fucntions which is already provided by python to use them like max , sorted, range etc some other as well . 
+# User _ Defined _ Functions : Those functions which is totally defined by user . To make its code functionality more better and perfect . 
 
-bigger_num = max(totals)
-print(f"Bigger Number is : {bigger_num}.")
+# ------------------
 
-lower_num = min(totals)
-print(f"Lower Number is : {lower_num}")
+# 3.  What does type() tell you about a variable? What does id() tell you? Keep them separate.
+# type() tells us about type of our data. 
+# id() Tells us where our data will stored in our system memory the exact location it tolds. 
 
-# Q2
-# Finding sata types usnig built in fuc 
-num  = 9
-string = 'Apple'
-lst = [12, 'Fruit']
-print(f"Type of Data is : {type(num)}.")
-print(f"Type of Data  is : {type(string)}.")
-print(f"Type of Data is : {type(lst)}.")
+# ---------------------
+# 4. You have words = ["Python", "Programming", "Code", "Functions"] and you want the longest word. You reach for max(words). Does plain max(words) give you the longest word? Answer yes/no and explain what max() actually does with a list of strings.
+# No it will not give like max() just find out max in numbers, or in float but not in strings.
 
-# Q3
-# sorting lst using built in sorted ()
-lst = [1200, 450, 9800, 300]
-sort_lst = sorted(lst)
-rev_sort_lst = sorted(lst, reverse=True)
-print(sort_lst)
-print(rev_sort_lst)
-
-# Q4: 
-# Finding long word
-word_lst = ["Python", "Programming", "Code", "Functions"]
-longest_word = max(word_lst, key=len)
-print(longest_word)
-
-# Till 1.Yet we have done almost whats told in file so what next 
+# ---------------------
+# 5. sorted() goes ascending by default. You need highest-to-lowest. Name at least one way to get descending order.
