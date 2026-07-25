@@ -4,7 +4,6 @@ def average_marks(students):
         marks = items.get("marks")
         if type(marks) == int or type(marks) == float:
             if marks >= 0 and marks <=100:
-            
                 avg_marks.append(marks)
     if len(avg_marks) == 0:
         return 0
