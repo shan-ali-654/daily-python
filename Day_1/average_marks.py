@@ -3,7 +3,9 @@ def average_marks(students):
     for items in students:
         marks = items.get("marks")
         if type(marks) == int or type(marks) == float:
-            avg_marks.append(marks)
+            if marks >= 0 and marks <=100:
+            
+                avg_marks.append(marks)
     if len(avg_marks) == 0:
         return 0
     result = sum(avg_marks) / len(avg_marks)
