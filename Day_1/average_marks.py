@@ -1,3 +1,4 @@
+# Day 3: typing git commands
 def average_marks(students):
     avg_marks = []
     for items in students:
